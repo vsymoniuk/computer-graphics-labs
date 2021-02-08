@@ -104,6 +104,5 @@ public class Main extends Application{
         innerArrow.setFill(clockBg);
         root.getChildren().add(outerArrow);
         root.getChildren().add(innerArrow);
-
     };
 }
