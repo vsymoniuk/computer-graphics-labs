@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63634187-cfde-4979-ab24-12fdbb50c79b" name="Default Changelist" comment="" />
+    <list default="true" id="63634187-cfde-4979-ab24-12fdbb50c79b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/java3d/1.5.1/LICENSE-Java3D-v1_5_1.rtf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java3d/1.5.1/README.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java3d/1.5.1/bin/j3dcore-ogl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java3d/1.5.1/exthelper.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java3d/1.5.1/lib/ext/j3dcore.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java3d/1.5.1/lib/ext/j3dutils.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java3d/1.5.1/lib/ext/vecmath.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/bender/Arm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/bender/Bender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/bender/Body.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/bender/Eye.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/bender/Head.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/bender/Leg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/com/company/Axes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/com/company/VecmathHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/shapes/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/shapes/Cube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/shapes/Frustum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/shapes/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/shapes/HalfSphere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/shapes/Torus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
