@@ -1,0 +1,7 @@
+newmtl unnamed_material
+map_Kd TEXTURE.jpg
+#Ns 2.4999999627471
+#Ka 0 0 0
+#Kd 1 1 1
+#Ks 0 0 0
+#d 1
