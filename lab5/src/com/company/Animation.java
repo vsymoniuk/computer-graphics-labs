@@ -26,7 +26,6 @@ public class Animation implements ActionListener, KeyListener {
     Animation(TransformGroup bear) {
         this.bear = bear;
         this.bear.getTransform(this.transform3D);
-
         Timer timer = new Timer(20, this);
         timer.start();
     }
@@ -36,40 +35,30 @@ public class Animation implements ActionListener, KeyListener {
             y += 0.02f;
             if (y > 0.2f) y = 0.2f;
         }
-
         if (s) {
             y -= 0.02f;
             if (y < -0.3f) y = -0.3f;
         }
-
-
         if (a) {
             x -= 0.02f;
             if (x < -0.8f) x = -0.8f;
         }
-
         if (d) {
             x += 0.02f;
             if (x > 0.8f) x = 0.8f;
         }
-
         transform3D.setTranslation(new Vector3f(x, y, 0));
-
         if (e) {
             Transform3D rotation = new Transform3D();
             rotation.rotY(0.05f);
             transform3D.mul(rotation);
-
         }
-
         if (q) {
 
             Transform3D rotation = new Transform3D();
             rotation.rotY(-0.05f);
             transform3D.mul(rotation);
-
         }
-
         bear.setTransform(transform3D);
     }
 
@@ -99,14 +88,11 @@ public class Animation implements ActionListener, KeyListener {
             case 'q':
                 q = true;
                 break;
-
         }
     }
 
     @Override
-    public void keyTyped(KeyEvent e) {
-
-    }
+    public void keyTyped(KeyEvent e) {}
 
     @Override
     public void keyReleased(KeyEvent ev) {
@@ -129,7 +115,6 @@ public class Animation implements ActionListener, KeyListener {
             case 'q':
                 q = false;
                 break;
-
         }
     }
 }
